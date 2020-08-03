@@ -1,0 +1,6 @@
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/cache_io.dir
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/non_cache_io.dir
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/first_chapter_test.dir
+/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/CMakeFiles/unix_advanced_programing.dir

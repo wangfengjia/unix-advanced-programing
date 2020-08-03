@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unix_advanced_programing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cache_io">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/cache_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cache_io"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cache_io/fast">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/cache_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cache_io/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="non_cache_io">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/non_cache_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 non_cache_io"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="non_cache_io/fast">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/non_cache_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 non_cache_io/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_chapter_test">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/first_chapter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 first_chapter_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_chapter_test/fast">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/first_chapter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 first_chapter_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unix_advanced_programing">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/unix_advanced_programing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 unix_advanced_programing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unix_advanced_programing/fast">
+				<Option output="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/unix_advanced_programing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 unix_advanced_programing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/wangyongchun/www/study/c/unix-advanced-programing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/first-chapter/cache_io.c">
+			<Option target="cache_io"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/first-chapter/first_chapter_test.c">
+			<Option target="first_chapter_test"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/first-chapter/non_cache_io.c">
+			<Option target="non_cache_io"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/include/apue.h">
+			<Option target="cache_io"/>
+			<Option target="non_cache_io"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/lib/error.c">
+			<Option target="cache_io"/>
+			<Option target="non_cache_io"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/main.c">
+			<Option target="unix_advanced_programing"/>
+		</Unit>
+		<Unit filename="/Users/wangyongchun/www/study/c/unix-advanced-programing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

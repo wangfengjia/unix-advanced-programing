@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyongchun/www/study/c/unix-advanced-programing/include/apue.h
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+
+/Users/wangyongchun/www/study/c/unix-advanced-programing/lib/error.c
+../include/apue.h
+/Users/wangyongchun/www/study/c/unix-advanced-programing/include/apue.h
+errno.h
+-
+stdarg.h
+-
+
