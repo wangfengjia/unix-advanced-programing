@@ -9,3 +9,6 @@ add_executable(unix_advanced_programing main.c)
 add_executable(first_chapter_test first-chapter/first_chapter_test.c)
 add_executable(non_cache_io first-chapter/non_cache_io.c include/apue.h lib/error.c)
 add_executable(cache_io first-chapter/cache_io.c include/apue.h lib/error.c)
+add_executable(process first-chapter/process.c include/apue.h lib/error.c)
+
+add_executable(signal_s first-chapter/signal.c include/apue.h lib/error.c)
