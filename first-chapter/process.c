@@ -4,14 +4,21 @@
 
 #include "../include/apue.h"
 #include <sys/wait.h>
+#include <limits.h>
+#include <unistd.h>
+#include <fcntl.h>
 
 void process_control(void);
 
 int main(void){
 
-    printf("hello world from process ID %ld\n", (long)getpid());
-    process_control();
-    exit(0);
+//    printf("hello world from process ID %ld\n", (long)getpid());
+//    process_control();
+//    exit(0);
+
+    int descriptor = open("../file", O_RDONLY);
+    fpathconf(descriptor, _PC_NAME_MAX);
+    printf("max process number: %ld\n", fpathconf(descriptor, _PC_NAME_MAX));
 }
 
 void process_control(void){
