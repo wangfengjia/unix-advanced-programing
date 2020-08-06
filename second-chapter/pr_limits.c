@@ -11,7 +11,6 @@ static void pr_sysconf(char *, int);
 static void pr_pathconf(char *, char *, int);
 
 int main(int argc, char *argv[]){
-
     if (argc != 2){
         err_quit("usage: a.out <dirname>");
     }
