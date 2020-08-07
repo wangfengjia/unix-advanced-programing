@@ -16,6 +16,8 @@ void l_lseek(void);
 void make_cavity_file(void); //创建有空洞的文件
 void l_read(void);
 void l_write(void);
+void l_dup(void);
+void l_fcntl(void);
 
 
 int main(void){
@@ -25,7 +27,9 @@ int main(void){
 //    l_lseek();
 //    make_cavity_file();
 //    l_read();
-    l_write();
+//    l_write();
+//    l_dup();
+    l_fcntl();
 }
 
 void l_open_openat(void){
@@ -135,3 +139,64 @@ void l_write(void){
         err_sys("write error");
     }
 }
+
+//复制一个现有的文件描述符
+void l_dup(void){
+
+    int fd;
+    int newfd;
+    int fcntlfd;
+    if ((fd = open("../file/sys_limit.txt", O_WRONLY)) < 0){
+        err_sys("open error");
+    }
+
+    if ((newfd = dup(fd)) == -1){
+        err_sys("dup error");
+    }
+    //复制描述符的另外一个方法
+    if ((fcntlfd = fcntl(fd, F_DUPFD, 0)) == -1){
+        err_sys("fcntl copy fd error");
+    }
+
+    char buf1[] = "abcdefg";
+    size_t bytes = sizeof(buf1);
+    if (write(fd, buf1, bytes) != bytes){
+        err_sys("write error by old fd");
+    }
+
+    char buf2[] = "ABCDEFG";
+    if (write(newfd, buf2, bytes) != bytes){
+        err_sys("write error by new fd");
+    }
+
+    char buf3[] = "HIJKLMN";
+    if (write(fcntlfd, buf3, bytes) != bytes){
+        err_sys("write error by fcntl fd");
+    }
+}
+
+void l_fcntl(void){
+
+    int fd;
+    if ((fd = open("../file/sys_limit.txt", O_NONBLOCK)) < 0){
+        err_sys("open error");
+    }
+
+    int val = fcntl(fd, F_GETOWN);
+    printf("val: %d\n", val);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
