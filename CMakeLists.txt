@@ -15,3 +15,6 @@ add_executable(signal_s first-chapter/signal.c include/apue.h lib/error.c)
 ##第三章
 add_executable(file third-chapter/file.c include/apue.h lib/error.c)
 add_executable(copy_file third-chapter/copy_file.c include/apue.h lib/error.c)
+
+##第四章
+add_executable(stat forth-chapter/stat.c include/apue.h lib/error.c)
