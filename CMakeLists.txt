@@ -22,6 +22,9 @@ add_executable(chmod forth-chapter/chmod.c include/apue.h lib/error.c)
 add_executable(link forth-chapter/link.c include/apue.h lib/error.c)
 add_executable(unlink forth-chapter/unlink.c include/apue.h lib/error.c)
 add_executable(rename forth-chapter/rename.c include/apue.h lib/error.c)
+add_executable(symlink forth-chapter/symlink.c include/apue.h lib/error.c)
+add_executable(file_time forth-chapter/file_time.c include/apue.h lib/error.c)
+add_executable(futimens forth-chapter/futimens.c include/apue.h lib/error.c)
 
 
 
