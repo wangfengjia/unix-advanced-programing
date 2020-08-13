@@ -20,3 +20,17 @@ add_executable(copy_file third-chapter/copy_file.c include/apue.h lib/error.c)
 add_executable(stat forth-chapter/stat.c include/apue.h lib/error.c)
 add_executable(chmod forth-chapter/chmod.c include/apue.h lib/error.c)
 add_executable(link forth-chapter/link.c include/apue.h lib/error.c)
+add_executable(unlink forth-chapter/unlink.c include/apue.h lib/error.c)
+add_executable(rename forth-chapter/rename.c include/apue.h lib/error.c)
+
+
+
+
+
+
+
+
+
+
+
+
