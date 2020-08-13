@@ -25,6 +25,7 @@ add_executable(rename forth-chapter/rename.c include/apue.h lib/error.c)
 add_executable(symlink forth-chapter/symlink.c include/apue.h lib/error.c)
 add_executable(file_time forth-chapter/file_time.c include/apue.h lib/error.c)
 add_executable(futimens forth-chapter/futimens.c include/apue.h lib/error.c)
+add_executable(mkdir forth-chapter/make_dir.c include/apue.h lib/error.c)
 
 
 
