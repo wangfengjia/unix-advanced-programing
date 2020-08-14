@@ -26,6 +26,8 @@ add_executable(symlink forth-chapter/symlink.c include/apue.h lib/error.c)
 add_executable(file_time forth-chapter/file_time.c include/apue.h lib/error.c)
 add_executable(futimens forth-chapter/futimens.c include/apue.h lib/error.c)
 add_executable(mkdir forth-chapter/make_dir.c include/apue.h lib/error.c)
+add_executable(chdir forth-chapter/chdir.c include/apue.h lib/error.c)
+add_executable(getcwd forth-chapter/getcwd.c include/apue.h lib/error.c lib/pathalloc.c)
 
 
 
