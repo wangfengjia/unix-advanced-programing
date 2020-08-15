@@ -29,6 +29,18 @@ add_executable(mkdir forth-chapter/make_dir.c include/apue.h lib/error.c)
 add_executable(chdir forth-chapter/chdir.c include/apue.h lib/error.c)
 add_executable(getcwd forth-chapter/getcwd.c include/apue.h lib/error.c lib/pathalloc.c)
 
+##第五章
+add_executable(buffer fifth-chapter/buffer.c include/apue.h lib/error.c)
+add_executable(fopen fifth-chapter/fopen.c include/apue.h lib/error.c)
+add_executable(byte_io fifth-chapter/byte_io.c include/apue.h lib/error.c)
+add_executable(line_io fifth-chapter/line_io.c include/apue.h lib/error.c)
+add_executable(binary_io fifth-chapter/binary_io.c include/apue.h lib/error.c)
+add_executable(stream_pos fifth-chapter/stream_position.c include/apue.h lib/error.c)
+add_executable(format_io fifth-chapter/format_io.c include/apue.h lib/error.c)
+add_executable(stream_info fifth-chapter/stream_info.c include/apue.h lib/error.c)
+add_executable(tmpfile fifth-chapter/tmpfile.c include/apue.h lib/error.c)
+add_executable(mkstemp fifth-chapter/mkstemp.c include/apue.h lib/error.c)
+
 
 
 
