@@ -40,6 +40,7 @@ add_executable(format_io fifth-chapter/format_io.c include/apue.h lib/error.c)
 add_executable(stream_info fifth-chapter/stream_info.c include/apue.h lib/error.c)
 add_executable(tmpfile fifth-chapter/tmpfile.c include/apue.h lib/error.c)
 add_executable(mkstemp fifth-chapter/mkstemp.c include/apue.h lib/error.c)
+add_executable(memory_stream fifth-chapter/memory_stream.c include/apue.h lib/error.c)
 
 
 
