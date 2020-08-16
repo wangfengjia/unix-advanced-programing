@@ -50,6 +50,11 @@ add_executable(system_identity sixth-chapter/system_identity.c include/apue.h li
 add_executable(time sixth-chapter/time.c include/apue.h lib/error.c)
 add_executable(time_format sixth-chapter/time_format.c include/apue.h lib/error.c)
 
+##第七章
+add_executable(exit_handler seventh-chapter/exit_handler.c include/apue.h lib/error.c)
+add_executable(env_table seventh-chapter/env_table.c include/apue.h lib/error.c)
+add_executable(resource_limit seventh-chapter/process_resource_limit.c include/apue.h lib/error.c)
+
 
 
 
