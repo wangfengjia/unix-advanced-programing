@@ -42,6 +42,14 @@ add_executable(tmpfile fifth-chapter/tmpfile.c include/apue.h lib/error.c)
 add_executable(mkstemp fifth-chapter/mkstemp.c include/apue.h lib/error.c)
 add_executable(memory_stream fifth-chapter/memory_stream.c include/apue.h lib/error.c)
 
+##第六章
+add_executable(getpwuid sixth-chapter/getpwuid.c include/apue.h lib/error.c)
+add_executable(group sixth-chapter/group.c include/apue.h lib/error.c)
+add_executable(supplement_group sixth-chapter/supplement_group.c include/apue.h lib/error.c)
+add_executable(system_identity sixth-chapter/system_identity.c include/apue.h lib/error.c)
+add_executable(time sixth-chapter/time.c include/apue.h lib/error.c)
+add_executable(time_format sixth-chapter/time_format.c include/apue.h lib/error.c)
+
 
 
 
