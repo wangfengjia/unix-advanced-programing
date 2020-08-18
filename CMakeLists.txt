@@ -55,6 +55,12 @@ add_executable(exit_handler seventh-chapter/exit_handler.c include/apue.h lib/er
 add_executable(env_table seventh-chapter/env_table.c include/apue.h lib/error.c)
 add_executable(resource_limit seventh-chapter/process_resource_limit.c include/apue.h lib/error.c)
 
+##第八章
+add_executable(processid eighth-chapter/processid.c include/apue.h lib/error.c)
+add_executable(fork eighth-chapter/fork.c include/apue.h lib/error.c)
+add_executable(exit eighth-chapter/exit.c include/apue.h lib/error.c)
+add_executable(wait eighth-chapter/wait.c include/apue.h lib/error.c eighth-chapter/pr_exit.h eighth-chapter/pr_exit.c)
+
 
 
 

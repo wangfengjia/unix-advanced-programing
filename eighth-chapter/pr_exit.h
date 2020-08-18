@@ -1,0 +1,9 @@
+//
+// Created by 王勇椿 on 2020/8/18.
+//
+
+#ifndef UNIX_ADVANCED_PROGRAMING_PR_EXIT_H
+#define UNIX_ADVANCED_PROGRAMING_PR_EXIT_H
+
+void pr_exit(int);
+#endif //UNIX_ADVANCED_PROGRAMING_PR_EXIT_H
