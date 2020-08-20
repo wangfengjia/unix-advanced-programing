@@ -60,6 +60,16 @@ add_executable(processid eighth-chapter/processid.c include/apue.h lib/error.c)
 add_executable(fork eighth-chapter/fork.c include/apue.h lib/error.c)
 add_executable(exit eighth-chapter/exit.c include/apue.h lib/error.c)
 add_executable(wait eighth-chapter/wait.c include/apue.h lib/error.c eighth-chapter/pr_exit.h eighth-chapter/pr_exit.c)
+add_executable(waitpid eighth-chapter/waitpid.c include/apue.h lib/error.c eighth-chapter/pr_exit.h eighth-chapter/pr_exit.c)
+add_executable(zombie_process eighth-chapter/zombie_process.c include/apue.h lib/error.c)
+add_executable(waitid eighth-chapter/waitid.c include/apue.h lib/error.c eighth-chapter/pr_exit.h eighth-chapter/pr_exit.c)
+add_executable(competition eighth-chapter/competition.c include/apue.h lib/error.c)
+add_executable(exec eighth-chapter/exec.c include/apue.h lib/error.c)
+add_executable(process_user eighth-chapter/process_user.c include/apue.h lib/error.c)
+add_executable(intepre eighth-chapter/interpreter_file.c include/apue.h lib/error.c)
+add_executable(system eighth-chapter/system.c include/my_apue.h lib/print_exit.c lib/system_implement.c include/apue.h lib/error.c)
+
+
 
 
 

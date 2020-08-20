@@ -7,7 +7,7 @@
 #include "pr_exit.h"
 #include "../include/apue.h"
 
-
+void tetst(void);
 int main(void){
 
 
