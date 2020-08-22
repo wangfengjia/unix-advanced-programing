@@ -68,7 +68,10 @@ add_executable(exec eighth-chapter/exec.c include/apue.h lib/error.c)
 add_executable(process_user eighth-chapter/process_user.c include/apue.h lib/error.c)
 add_executable(intepre eighth-chapter/interpreter_file.c include/apue.h lib/error.c)
 add_executable(system eighth-chapter/system.c include/my_apue.h lib/print_exit.c lib/system_implement.c include/apue.h lib/error.c)
-
+add_executable(process_accounting_test eighth-chapter/process_accounting_test.c include/apue.h lib/error.c)
+add_executable(login_name eighth-chapter/login_name.c include/apue.h lib/error.c)
+add_executable(dispatch eighth-chapter/process_dispatch.c include/apue.h lib/error.c)
+add_executable(process_time eighth-chapter/process_time.c include/apue.h lib/error.c)
 
 
 

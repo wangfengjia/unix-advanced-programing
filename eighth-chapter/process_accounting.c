@@ -28,7 +28,6 @@
 static unsigned long compt2ulong(comp_t);
 
 
-#if defined(BSD)
 static unsigned long compt2ulong(comp_t comtime){
 
     unsigned long val;
@@ -41,7 +40,6 @@ static unsigned long compt2ulong(comp_t comtime){
     }
     return val;
 }
-#endif
 
 int main(int argc, char *argv[]){
 
