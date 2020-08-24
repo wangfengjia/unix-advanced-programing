@@ -73,6 +73,9 @@ add_executable(login_name eighth-chapter/login_name.c include/apue.h lib/error.c
 add_executable(dispatch eighth-chapter/process_dispatch.c include/apue.h lib/error.c)
 add_executable(process_time eighth-chapter/process_time.c include/apue.h lib/error.c)
 
+##第九章
+add_executable(process_group ninth-chapter/process_group.c include/apue.h lib/error.c)
+
 
 
 

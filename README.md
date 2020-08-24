@@ -104,3 +104,19 @@
 10. 函数getrlimit和setrlimit
 
 ##第八章-进程控制
+1. 进程标识
+2. 函数fork
+3. 函数vfork
+4. 函数exit
+5. 函数wait和waitpid
+6. 函数waitid
+7. 函数wait3和wait4
+8. 竞争条件
+9. 函数exec
+10. 更改用户ID和组ID
+11. 解释器文件
+12. 函数system
+13. 进程会计
+14. 用户标识
+5. 进程调度(nice函数)
+16. 进程时间
