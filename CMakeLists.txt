@@ -75,6 +75,9 @@ add_executable(process_time eighth-chapter/process_time.c include/apue.h lib/err
 
 ##第九章
 add_executable(process_group ninth-chapter/process_group.c include/apue.h lib/error.c)
+add_executable(process_session ninth-chapter/process_session.c include/apue.h lib/error.c)
+add_executable(front_process_group ninth-chapter/front_process_group.c include/apue.h lib/error.c)
+add_executable(orphan_process ninth-chapter/orphan_process.c include/apue.h lib/error.c)
 
 
 
