@@ -79,6 +79,9 @@ add_executable(process_session ninth-chapter/process_session.c include/apue.h li
 add_executable(front_process_group ninth-chapter/front_process_group.c include/apue.h lib/error.c)
 add_executable(orphan_process ninth-chapter/orphan_process.c include/apue.h lib/error.c)
 
+##第十章
+add_executable(reentry_function tenth-chapter/reentry_function.c include/apue.h lib/error.c)
+
 
 
 
