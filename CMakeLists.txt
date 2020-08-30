@@ -81,6 +81,8 @@ add_executable(orphan_process ninth-chapter/orphan_process.c include/apue.h lib/
 
 ##第十章
 add_executable(reentry_function tenth-chapter/reentry_function.c include/apue.h lib/error.c)
+add_executable(kill tenth-chapter/kill.c include/apue.h lib/error.c)
+add_executable(alarm tenth-chapter/alarm.c include/apue.h lib/error.c)
 
 
 
