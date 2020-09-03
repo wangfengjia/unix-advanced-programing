@@ -86,6 +86,7 @@ add_executable(alarm tenth-chapter/alarm.c include/apue.h lib/error.c)
 add_executable(alarm_v3 tenth-chapter/alarm_v3.c include/apue.h lib/error.c)
 add_executable(sigprocmask tenth-chapter/sigprocmask.c include/apue.h lib/error.c)
 add_executable(mysignal_test tenth-chapter/mysignal_test.c include/apue.h lib/error.c tenth-chapter/mysignal.h tenth-chapter/sigaction.c)
+add_executable(myabort tenth-chapter/myabort.c)
 
 
 

@@ -1,0 +1,9 @@
+//
+// Created by 王勇椿 on 2020/9/3.
+//
+
+#ifndef UNIX_ADVANCED_PROGRAMING_SLEEP_IMPLEMENT_H
+#define UNIX_ADVANCED_PROGRAMING_SLEEP_IMPLEMENT_H
+
+unsigned int mysleep(unsigned int);
+#endif //UNIX_ADVANCED_PROGRAMING_SLEEP_IMPLEMENT_H
