@@ -88,6 +88,9 @@ add_executable(sigprocmask tenth-chapter/sigprocmask.c include/apue.h lib/error.
 add_executable(mysignal_test tenth-chapter/mysignal_test.c include/apue.h lib/error.c tenth-chapter/mysignal.h tenth-chapter/sigaction.c)
 add_executable(myabort tenth-chapter/myabort.c)
 
+##第十一章
+add_executable(thread_identity eleventh-chapter/thread_identity.c include/apue.h)
+
 
 
 
