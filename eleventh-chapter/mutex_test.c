@@ -29,7 +29,7 @@ void *mutex_thr1_function(void *args){
 
 void *mutex_thr2_function(void *args){
 
-//    foo_hold(foo);
+    foo_hold(foo);
     int i = 0;
     for (; i < 1000000; i++){
 //        pthread_mutex_lock(&foo->f_lock);
@@ -38,13 +38,13 @@ void *mutex_thr2_function(void *args){
 //        pthread_mutex_unlock(&lock);
 //        pthread_mutex_unlock(&foo->f_lock);
     }
-//    foo_rele(foo);
+    foo_rele(foo);
     pthread_exit((void *)2);
 }
 
 void *mutex_thr3_function(void *args){
 
-//    foo_hold(foo);
+    foo_hold(foo);
     int i = 0;
     for (; i < 1000000; i++){
 //        pthread_mutex_lock(&foo->f_lock);
@@ -53,7 +53,7 @@ void *mutex_thr3_function(void *args){
 //        pthread_mutex_unlock(&lock);
 //        pthread_mutex_unlock(&foo->f_lock);
     }
-//    foo_rele(foo);
+    foo_rele(foo);
     return ((void *)3);
 }
 
