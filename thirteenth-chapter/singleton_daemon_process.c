@@ -11,7 +11,7 @@
 #include "singleton_daemon_process.h"
 #include "../include/apue.h"
 
-//extern int lockfile(int);
+extern int lockfile(int);
 
 int already_running(void){
 
@@ -21,12 +21,11 @@ int already_running(void){
 
     errno = 0;
     fd = open(LOCKFILE, O_RDWR | O_CREAT, LOCKMODE);
-    printf("file descriptor: %d\n", fd);
     if (fd < 0){
         syslog(LOG_ERR, "can't open %s: %s", LOCKFILE, strerror(errno));
     }
 
-    if (flock(fd, LOCK_EX) < 0){
+    if (lockfile(fd) < 0){
         if (errno == EACCES || errno == EAGAIN){
             close(fd);
             return (1);

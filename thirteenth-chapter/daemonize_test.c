@@ -8,10 +8,11 @@
 
 int main(void){
 
-    if (already_running() != 0){
+
+    mydaemonize("daemonize_test");
+    if (already_running()){
         err_sys("daemon process already running");
     }
-    mydaemonize("daemonize_test");
     sleep(360);
 }
 
