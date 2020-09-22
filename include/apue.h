@@ -38,7 +38,7 @@
  */
 #define	DIR_MODE	(FILE_MODE | S_IXUSR | S_IXGRP | S_IXOTH)
 
-typedef	void	Sigfunc(int);	/* for signal handlers */
+typedef	void	Sigfunc(int);	/* for signalhandlers */
 
 #define	min(a,b)	((a) < (b) ? (a) : (b))
 #define	max(a,b)	((a) > (b) ? (a) : (b))
