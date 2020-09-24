@@ -195,3 +195,32 @@
 6. 客户进程-服务器进程模型
 
 ### 高级I/O
+1. 非阻塞I/O
+2. 记录锁
+3. I/O多路转接(多路复用)
+    1. 函数select和pselect
+    2. 函数poll
+4. 异步I/O
+    1. System V异步I/O
+    2. BSD异步I/O
+    3. POSIX异步I/O
+5. 函数readv和writev
+6. 函数readn和writen
+7. 存储映射I/O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
