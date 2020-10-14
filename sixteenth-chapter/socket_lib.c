@@ -4,6 +4,7 @@
 #include "../include/apue.h"
 #include "socket_lib.h"
 #include <errno.h>
+#include <sys/socket.h>
 
 
 int
@@ -59,4 +60,68 @@ initserver(int type, const struct sockaddr *addr, socklen_t alen, int qlen){
     errno = err;
     return (-1);
 }
+
+//TCP的实现不允许绑定同一个地址，可以通过套接字选项SO_REUSEADDR来绕过这个限制
+int
+initserver_v2(int type, const struct sockaddr *addr, socklen_t alen, int qlen){
+
+    int fd;
+    int err = 0;
+    int reuse = 1;
+
+    if ((fd = socket(addr->sa_family, type, 0)) < 0){
+        return (-1);
+    }
+    if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof(int)) < 0){
+        goto errout;
+    }
+    if (bind(fd, addr, alen) < 0){
+        goto errout;
+    }
+    if (type == SOCK_STREAM || type == SOCK_SEQPACKET){
+        if (listen(fd, qlen) < 0){
+            goto errout;
+        }
+    }
+
+    return (fd);
+
+    errout:
+        err = errno;
+        close(fd);
+        errno = err;
+        return (-1);
+}
+
+
+int
+my_fd_pipe(int fd[2]){
+
+    return (socketpair(AF_UNIX, SOCK_STREAM, 0, fd));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
