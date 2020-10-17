@@ -16,4 +16,28 @@ int server_listen(const char *);
 int server_accept(int listenfd, uid_t *);
 //客户进程调用此函数连接到服务器进程。返回值是连接到服务器进程的文件描述符
 int client_connect(const char *);
+
+//以下三个函数是用于将一个打开文件描述符从一个进程传送到另外一个进程，从而使这两个进程共享同一个文件表项
+/**
+ *
+ * @param fd unix域套接字描述符
+ * @param fd_to_send 需要传送的打开文件描述符
+ * @return
+ */
+int my_send_fd(int fd, int fd_to_send);
+/**
+ * 发送错误消息:将出错消息写到套接字后，然后调用send_fd函数
+ * @param fd unix域套接字描述符
+ * @param errorcode 状态值(-1 ~ -255)
+ * @param errmsg 错误信息
+ * @return
+ */
+int my_send_err(int fd, int errorcode, const char *errmsg);
+
+int my_recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t));
+
+//进程之间传送文件描述符的第二个版本，包括传送文件描述符和证书(发送文件描述符的进程信息)
+int my_send_fd_v2(int, int);
+//接收文件描述符和证书
+int my_recv_fd_v2(int, uid_t *, ssize_t (*userfunc)(int, const void *, size_t));
 #endif //UNIX_ADVANCED_PROGRAMING_UNIX_DOMAIN_SOCKET_LIB_H
