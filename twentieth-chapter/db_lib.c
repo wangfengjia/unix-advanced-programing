@@ -860,6 +860,12 @@ db_nextrec(DBHANDLE h, char *key){
         while ((c = *ptr++) != 0 && c == SPACE); // skip until null byte or nonblank
     }while (c == 0); // loop until a nonblock key is found
 
+    if (key != NULL){
+        strcpy(key, db->idxbuf);
+    }
+    ptr = _db_readdat(db); //return pointer to data buffer
+    db->cnt_nextrec++;
+    
     doreturn:
         if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0){
             err_dump("db_nextrec: un_lock error");
